@@ -1,0 +1,17 @@
+.tasks {
+  border-top: 1px solid var(--gray-300);
+  border-radius: 8px;
+  padding: 4rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tasks span {
+  font-weight: bold;
+}
+
+.tasks img {
+  margin-bottom: 1rem;
+}

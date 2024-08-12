@@ -1,0 +1,29 @@
+.content {
+  max-width: 46rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.addTaskContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.addTaskContainer input,
+.addTaskContainer button {
+  transform: translateY(-50%);
+  margin-bottom: 2.3123rem;
+}
+
+.taskList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.taskList > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
